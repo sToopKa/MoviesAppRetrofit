@@ -1,0 +1,9 @@
+package com.sto_opka91.mymoviesapp
+
+import com.sto_opka91.mymoviesapp.data.room.repository.MoviesrepositoryRealization
+
+lateinit var MAIN: MainActivity
+lateinit var REALIZATION: MoviesrepositoryRealization
+
+ var BASE_URL: String = "https://kinopoiskapiunofficial.tech/"
+val BEARER = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzMDUwNTNjZDkwZDJmYmM1YjBlMWQ1OTU1NjA1MzRkNSIsInN1YiI6IjY0ZmVjYTlmNmEyMjI3MDBmZDFmNjcwYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.C_gUQHyBZk6WGnL92bgc8QjizYRRB8E2fRr_e-u8LrM"
